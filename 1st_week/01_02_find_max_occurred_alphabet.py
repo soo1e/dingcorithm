@@ -1,3 +1,8 @@
+"""
+Q. 다음과 같은 문자열을 입력받았을 때, 어떤 알파벳이 가장 많이 포함되어 있는지 반환하시오.
+(단 최빈값을 가진 알파벳이 여러개일 경우 알파벳 순서가 가장 앞에 위치한 알파벳을 출력하시오)
+"""
+
 def find_alphabet_occurrence_array(string):
     alphabet_occurrence_array = [0] * 26  # 알파벳 개수(26개)만큼 리스트 초기화
 
